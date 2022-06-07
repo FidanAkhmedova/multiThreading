@@ -51,7 +51,6 @@ Thread thread;
                     throw new RuntimeException(e);
                 }
             }).start();
-
         }
     }
 }
