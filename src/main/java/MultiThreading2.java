@@ -25,7 +25,7 @@ Thread thread;
 
         for (int i = 0; i < 10; i++) {
             int j = i;
-           // new Car(race, 15)
+         
         new Thread(() -> {
                 try {
                     System.out.printf("Car %s готовится... \n", Thread.currentThread().getName());
